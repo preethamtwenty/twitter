@@ -1,0 +1,19 @@
+.sidebaroption{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+
+}
+.sidebaroption >.MuiSvgIcon-root{
+    margin:20px;
+    
+    
+}
+.sidebaroption:hover{
+    background-color:var(--twitter-background);
+    border-radius:20px;
+    width:fit-content;
+    color:var(--twitter-color);
+    transition:color 0.1s ease-out;
+}
+
